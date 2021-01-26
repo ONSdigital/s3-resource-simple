@@ -27,6 +27,8 @@ jobs:
   plan:
   - <some Resource or Task that outputs files>
   - put: <resource name>
+    params:
+      src_path: <optional, local path to sync to s3>
 ```
 
 ## AWS Credentials
